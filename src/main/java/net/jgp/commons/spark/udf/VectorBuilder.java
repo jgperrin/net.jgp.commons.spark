@@ -1,4 +1,4 @@
-package io.oplo.commons.spark.udf;
+package net.jgp.commons.spark.udf;
 
 import org.apache.spark.mllib.linalg.Vector;
 import org.apache.spark.mllib.linalg.Vectors;
