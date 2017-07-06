@@ -1,7 +1,7 @@
 package net.jgp.commons.spark.udf;
 
-import org.apache.spark.mllib.linalg.Vector;
-import org.apache.spark.mllib.linalg.Vectors;
+import org.apache.spark.ml.linalg.Vector;
+import org.apache.spark.ml.linalg.Vectors;
 import org.apache.spark.sql.api.java.UDF1;
 
 public class VectorBuilder implements UDF1<Double, Vector> {
